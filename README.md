@@ -14,3 +14,4 @@ Changes to project
 2. Modified Cheese Pie Recipe again (07/nov/2019)
 3. Added Apple Pie and Blueberry Sauce Recipes (07/nov/2019)
 4. Modified Apple Pie Recipe (07/nov/2019)
+5. Untracked Lemon Pie Recipe without deleting it from the project (08/11/2019)
