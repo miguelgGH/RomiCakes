@@ -1,0 +1,52 @@
+Examen
+
+Nombre: Miguel Angel Gómez Cortés
+	Grupo: Zap Matutino 2
+	Fecha: 08/11/19
+	
+-GIT
+	
+1.	Cual es la diferencia entre git y GitHUB?
+Git es una aplicación de consola que nos permite crear un repositorio y guardar un historial de cambios a determinado proyecto, este reside en una computadora local.
+GitHub es un servicio que nos permite crear una réplica del repositorio de dicho proyecto local en la nube de modo que se cuente con un respaldo del repositorio del  proyecto en una ubicación externa, y a la vez, este pueda ser accesado por otros colaboradores del proyecto en otras computadoras, quienes pueden generar y guardar cambios a este.
+
+2.	En cuantos y cuales estados puede estar un archivo?
+Un archivo puede estar tracked o untracked por Git, y una vez que el archivo está siendo tracked, este puede estar en uno de tres estados: committed, modified, o staged
+
+3.	Para qué sirve el comando "git add ." ?
+Agrega todos los archivos nuevos o modificados dentro del repositorio local del proyecto al área de staging para que de ahí puedan ser incluidos en el próximo commit, y seguidos por git
+
+4.	Cuáles son los 4 datos más relevantes a la hora de hacer un commit?
+	1.	La rama en la que se hizo el commit
+	2.	el Sha1 hash del commit
+	3.	el mensaje de commit que se incluyó
+	4.	Numero de archivos modificados junto con las estadísticas de inserciones y/o eliminaciones realizadas
+	5.	Y si un nuevo archivo fue agregado, git muestra eso junto con el nombre del nuevo archivo 
+
+5.	Cual es el comando para crear una rama en mi repositorio?
+git checkout –b nombre_nueva_rama
+
+-JIRA
+
+1.	Defina lo que es un issue:
+		Es el concepto básico en Jira, el bloque unitario mínimo dentro de la aplicación. Una Issue es cualquier tarea, cosa o elemento del cual se quiera dar seguimiento a su estado, puede ser de varios tipos, tales como Story, Bug, o Task, y contiene propiedades tales como descripción, quien lo creó, a quien se le ha asignado, estimado, así como su estado actual
+
+2.	En kanban y scrum, cuales son las columnas default de un tablero?
+		Kanban: Backlog, Selected for Development, In Progress, Done
+		Scrum: To Do, In Progress, Done
+
+3.	Como se selecciona un Dashboard para mostrarse en la pantalla de bienvenida?
+		En Dashboards>Manage Dashboards, un dashboard existente, o un dashboard creado se marca como favorito, y este es el que aparecerá en la página de inicio al hacer log in a jira, y si se tienen seleccionados como favoritos mas de un dashboard, entonces al hacer login, la página de inicio dará la opción de seleccionar cual mostrar de entre ellos.
+
+	
+-Jenkins
+	
+1.	Cual es el atajo (ruta relativa) para el directorio home de un usuario de ubuntu?
+		El atajo o  ruta relativa para el directorio home de un usuario puede ser representada por simbolo ~
+
+2.	Como se installa Jenkins en un sistema linux?
+		Descargar el archivo jar de instalación de Jenkins.io
+		Navegar a la ubicación de la descarga y ejecutar el instalador con java, la instalación genera una clave de acceso con la cual se desbloquea Jenkins en el navegador(localhost:8080) para continuar con la instalación
+
+3.	Cual es la relación entre Hudson y Jenkins? 
+		Después de que Oracle adquirió Sun Microsystems, que es donde Hudson empezó a desarrollarse como un proyecto con múltiples contribuidores, se inició una disputa entre dichos contribuidores y Oracle sobre los derechos y la dirección de Hudson, tras lo cual Oracle decidió aplicar por una marca registrada para Hudson incluyendo el nombre de la aplicación. A partir de esto, la comunidad de contribuidores de Hudson decidieron famificarse de Hudson y continuar con el proyecto bajo el nombre de Jenkins, asi que la relación a entre Hudson y Jenkins es que  a partir de la intervención de Oracle en el proyecto de Hudson, la comunidad de contribuidores se ramificaron de Hudson y decidieron continuar con el proyecto bajo el nombre de Jenkins.
